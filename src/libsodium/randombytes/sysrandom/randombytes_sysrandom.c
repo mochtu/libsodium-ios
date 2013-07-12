@@ -20,8 +20,8 @@
 #include "utils.h"
 
 #ifdef _WIN32
-# include <Windows.h>
-# include <Wincrypt.h>
+# include <windows.h>
+# include <wincrypt.h>
 #endif
 
 typedef struct SysRandom_ {
@@ -148,7 +148,6 @@ randombytes_sysrandom(void)
 {
     uint32_t r;
 
-    randombytes_sysrandom_stir_if_needed();
     randombytes_sysrandom_buf(&r, sizeof r);
 
     return r;
