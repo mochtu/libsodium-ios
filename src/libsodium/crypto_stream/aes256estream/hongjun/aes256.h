@@ -7,7 +7,7 @@
 
 #include <stdio.h>
 
-#ifdef NATIVE_LITTLE_ENDIAN
+#if defined(NATIVE_LITTLE_ENDIAN)
 # define LEROT(X, S) ((uint8_t) ((uint32_t)(X) >> (S)))
 # define SWP32(X)    (X)
 #elif defined(NATIVE_BIG_ENDIAN)
