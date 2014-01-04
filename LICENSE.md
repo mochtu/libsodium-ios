@@ -1,9 +1,8 @@
 
-
 License
 -------
 
-Copyright (c) 2013
+Copyright (c) 2014
 Moritz C. Türck
 
 Permission to use, copy, modify, and distribute this software for any
