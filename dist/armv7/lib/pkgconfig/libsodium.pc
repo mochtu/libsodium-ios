@@ -1,0 +1,11 @@
+prefix=/Users/mo/code/timber/sod/libsodium-0.4.5-iOS7.1/dist/armv7
+exec_prefix=/Users/mo/code/timber/sod/libsodium-0.4.5-iOS7.1/dist/armv7
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libsodium
+Version: 0.4.5
+Description: A portable, cross-compilable, installable, packageable fork of NaCl, with a compatible API.
+
+Libs: -L${libdir} -lsodium
+Cflags: -I${includedir}
