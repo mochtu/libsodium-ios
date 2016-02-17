@@ -24,7 +24,7 @@ libsodium-ios
 
 This repo provides two things:
 * a prebuild static library for iOS of the sodium library and the preprocessed headerfiles for targeting a darwin/arm7 system
-* the preprocessed headerfiles (for darwin/arm7) and sourcecode to use it directly in XCode
+* the preprocessed headerfiles (for darwin/arm7) and sourcecode to use it directly in Xcode
 
 It is used by the CocoaPod "libsodium-ios" and gives easy access to the functionalities of NaCl for iOS developers.
 
